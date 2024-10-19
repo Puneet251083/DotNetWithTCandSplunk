@@ -1,5 +1,5 @@
-namespace DotNetWithTCandSplunk.Model
-{
+namespace DotNetWithTCandSplunk.Model;
+
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }
@@ -10,4 +10,3 @@ namespace DotNetWithTCandSplunk.Model
 
         public string? Summary { get; set; }
     }
-}
