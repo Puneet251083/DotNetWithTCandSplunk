@@ -48,18 +48,17 @@ namespace DotNetWithTCandSplunk.Controller
             returnValue.Should().NotBeNull();
         }
 
+        //[Ignore("Not Required")]
         //[Fact]
         //public async Task GetStudent_ReturnsNotFound_WhenStudentIsNotFound()
         //{
         //    // Arrange
-        //    var rollNo = "456";
-        //    _controller.ControllerContext = new ControllerContext
-        //    {
-        //        HttpContext = new DefaultHttpContext()
-        //    };
-        //    _controller.HttpContext.Request.Headers["RollNo"] = rollNo;
-
-        //    var exception = await Assert.ThrowsAsync<NotFoundException>(() => _studentService.SearchStudent(rollNo));
+        //    int rollNo = 456;
+        //    var result = await _controller.GetStudent(rollNo);
+        //    // Assert
+        //    var okResult = Assert.IsType<OkObjectResult>(result.Result);
+        //    var returnValue = Assert.IsType<List<Student>>(okResult.Value);
+        //    returnValue.Should().NotBeNull();
 
         //}
     }
